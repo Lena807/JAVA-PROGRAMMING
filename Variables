@@ -1,0 +1,29 @@
+public class main {
+    public static void main(String[] args) {
+        // variable = a reusable container for a value
+        //a variable behaves as if it was the value it contains
+
+
+        // * primitive = simple value stored directly in memory (stack)
+        // *Reference  = memory address (stack) that points to the (heap)
+
+        // * primitive vs * Reference
+        // ------------            ------------
+        // int                     String
+        // double                  array
+        // char                    object
+        // boolean
+
+        // 2. Steps to creation a variable
+        //  1.Declaration
+        //  2.Assignment
+
+        int age = 20;
+        System.out.println(age);
+
+
+
+}
+
+output:
+20
