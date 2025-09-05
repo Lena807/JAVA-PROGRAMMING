@@ -1,0 +1,13 @@
+public class main{
+    public static void main(String args[]) {
+        String color = "rose";
+        String year = "2025";
+        String car = "yamaha";
+        System.out.println("Your choice is a " + color+ " "+ year+" "+ " " + car);
+        
+        
+    }
+}
+
+output:
+Your choice is a rose 2025  yamaha
