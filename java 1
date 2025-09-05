@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+
+
+        // THIS IS MY FIRST JAVA PROGRAM
+
+        /*
+             This
+             IS
+             A
+             MULTI-LINE
+             COMMENT
+         */
+        System.out.println("I like a dog!\n");
+        System.out.println("Its really cute!");
+        System.out.println("Buy me a dog!");
+    }
+}
