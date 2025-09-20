@@ -1,0 +1,33 @@
+public class Main {
+    public static void main(String[] args) {
+        // Arithmetic operators
+
+        int x =2;
+    
+        x--;
+
+
+
+        System.out.println(x);
+    }
+}
+
+output:
+1
+
+// P-E-M-D-A-S
+public class Main {
+    public static void main(String[] args) {
+        // ORDER OF OPERATIONS [P-E-M-D-A-S]
+
+        double result  = 8 + 2 * (3- 1);
+
+
+
+
+        System.out.println(result);
+    }
+}
+
+output:
+12.0
