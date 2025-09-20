@@ -1,0 +1,43 @@
+public class Main {
+    public static void main(String[] args) {
+       
+// if statement = performs a block of code if its condition is true
+        int age = 18;
+        if (age >= 20) {
+            System.out.println("You are married!");
+        } else {
+            System.out.println("you are child!");
+        }
+    }
+}
+
+
+output:
+you are child!
+
+
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        // if statement = performs a block of code if its condition is true
+        Scanner scanner = new Scanner(System.in);
+        int age;
+        System.out.print("Enter your age: ");
+        age= scanner.nextInt();
+        if (age >= 65) {
+            System.out.println("You are a senior!");
+        }
+        else if(age >=18){
+            System.out.println("you are an adult!");
+        }
+        else if(age < 0){
+            System.out.println("You haven't been born yet!");
+        }
+        scanner.close();
+    }
+}
+
+output:
+Enter your age: 40
+you are an adult!
