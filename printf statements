@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        // printf() = is a method used to format output
+        // %[flags][width][.precision][specifier-character]
+
+        String name = "Spongebob";
+        char firstletter = 'S';
+        int age = 30;
+        double height = 60;
+        boolean isEmployed = true;
+        System.out.printf("Hello %s", name);
+        System.out.printf("Your name starts with a %c\n", firstletter);
+        System.out.printf("Your are %d years old\n", age);
+    }
+}
+
+output:
+Hello SpongebobYour name starts with a S
+Your are 30 years old
