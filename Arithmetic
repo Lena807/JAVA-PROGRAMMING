@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+        // Arithmetic operators
+
+        int x =20;
+        int y =3;
+        int z= x+y;
+        
+        //z=x+y;
+        //z=x-y;
+        //z=x*y;
+
+        System.out.println(z);
+    }
+}
+
+output:
+23
