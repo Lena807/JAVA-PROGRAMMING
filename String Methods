@@ -1,0 +1,23 @@
+public class Main{
+    public static void main(String[] args){
+        String name ="MURUGAN";
+        int length = name.length();
+        char letter = name.charAt(0);
+        int index = name.indexOf(" ");
+        int lastIndex = name.lastIndexOf("M");
+
+        System.out.println(length);
+        System.out.println(letter);
+        System.out.println(index);
+        System.out.println(lastIndex);
+
+    }
+}
+
+
+
+output:
+7
+M
+-1
+0
