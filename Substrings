@@ -1,0 +1,27 @@
+// . substring() = A method used to extract a portionof a String
+//                 string.substring(start, end)
+
+
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+
+        Scanner scanner = new Scanner(System.in);
+        String email;
+        String username;
+        String domain;
+
+        System.out.print("Enter your email: ");
+
+         email = scanner.nextLine();
+         username = email.substring(0, email.indexOf("@"));
+         domain = email.substring(email.indexOf("@")+1);
+        System.out.println(username);
+        System.out.println(domain);
+        scanner.close();
+
+        output:
+        Enter your email: nali@567gmail.com
+         nali
+         567gmail.com
