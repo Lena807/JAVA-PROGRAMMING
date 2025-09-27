@@ -1,0 +1,39 @@
+import java.util.Scanner;
+import java.util.Random;
+public class Main{
+    public static void main(String[] args){
+     
+        
+        // NUMBER GUESSING GAME
+        
+        Random random = new Random();
+        Scanner scanner = new Scanner(System.in);
+        int guess;
+        int attempts = 0;
+        int randomNumber = random.nextInt(1,11);
+        System.out.println("Number Guessing Game");
+        System.out.println("Guess a number between 1-10: ");
+        do{
+            System.out.print("Enter a guess: ");
+            guess = scanner.nextInt();
+            attempts++;
+            
+        }while(guess != randomNumber);
+        System.out.println("You have won");
+        
+    }
+}
+
+
+output:
+Number Guessing Game
+Guess a number between 1-10: 
+Enter a guess: 5
+Enter a guess: 6
+Enter a guess: 9
+Enter a guess: 10
+Enter a guess: 6
+Enter a guess: 6
+Enter a guess: 9
+Enter a guess: 2
+You have won
